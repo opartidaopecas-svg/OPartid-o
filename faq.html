@@ -1,0 +1,441 @@
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Faq-O Partidão</title>
+<meta name="description" content="Barra de navegação responsiva com logo à direita, links ao centro e ícones/ações à esquerda" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="navbar" role="banner">
+    <div class="container">
+        <!-- ESQUERDA: Logo -->
+        <a href="#inicio" class="logo" aria-label="Ir para a página inicial">
+            <img src="fotos/logo.png" alt="Logo O Partidão" />
+        </a>
+
+        <!-- CENTRO: links de navegação (agora deslocado) -->
+        <nav class="nav-center" aria-label="Navegação principal">
+            <a href="index.html">Início</a>
+            <a href="index.html#quem-somos">Sobre</a>
+            <a href="index.html#servicos">Serviços</a>
+            <a href="index.html#contato">Contato</a>
+            <a href="faq.html">Faq</a>
+        </nav>
+
+        <!-- DIREITA: ícones / ações -->
+        <div class="nav-right">
+            <!-- Botão de busca (opcional) -->
+            <a href="#" class="icon-btn" aria-label="Buscar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </a>
+            
+            <!-- Botão menu hamburguer (mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu" id="mobileMenu" hidden>
+         <a href="index.html">Início</a>
+            <a href="index.html#quem-somos">Sobre</a>
+            <a href="index.html#servicos">Serviços</a>
+            <a href="index.html#contato">Contato</a>
+            <a href="faq.html">Faq</a>
+    </div>
+</header>
+
+<!-- HERO / CAPA -->
+<section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h3>ESPECIALISTAS EM SISTEMAS ELÉTRICOS AUTOMOTIVOS</h3>
+        <h1>MOTOR DE PARTIDA E ALTERNADOR</h1>
+
+        <p>Peça seu orçamento agora mesmo clicando abaixo.</p>
+
+        <a href="https://wa.me/5541999999999" class="hero-btn" target="_blank">
+            FAZER ORÇAMENTO PELO WHATSAPP
+        </a>
+    </div>
+</section>
+
+<div class="faixa-contato">
+    <a href="https://wa.me/5518997739062" target="_blank" class="contato-item">
+        📞 (18) 99773-9062
+    </a>
+
+    <a href="mailto:autoeletricaopartidao@gmail.com" class="contato-item">
+        ✉️ autoeletricaopartidao@gmail.com
+    </a>
+</div>
+
+<!-- ===== CARROSSEL FUNCIONAL ===== -->
+<section class="carrossel-ativo">
+    <div class="carrossel-track-ativo">
+        
+        <!-- Carros -->
+        <div class="logo-ativa">
+            <img src="marcas/volkswagen.png" alt="Volkswagen">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/fiat.png" alt="Fiat">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/chevrolet.png" alt="Chevrolet">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/ford.png" alt="Ford">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/toyota.png" alt="Toyota">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/honda.png" alt="Honda">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/renault.png" alt="Renault">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/hyundai.png" alt="Hyundai">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/nissan.png" alt="Nissan">
+        </div>
+        
+        <!-- Caminhões -->
+        <div class="logo-ativa destaque">
+            <img src="marcas/volvo.png" alt="Volvo">
+        </div>
+        
+        <div class="logo-ativa destaque">
+            <img src="marcas/scania.png" alt="Scania">
+        </div>
+        
+        <div class="logo-ativa destaque">
+            <img src="marcas/mercedes.png" alt="Mercedes">
+        </div>
+        
+        <!-- DUPLICADO PARA EFEITO INFINITO (OBRIGATÓRIO) -->
+        <div class="logo-ativa">
+            <img src="marcas/volkswagen.png" alt="Volkswagen">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/fiat.png" alt="Fiat">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/chevrolet.png" alt="Chevrolet">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/ford.png" alt="Ford">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/toyota.png" alt="Toyota">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/honda.png" alt="Honda">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/renault.png" alt="Renault">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/hyundai.png" alt="Hyundai">
+        </div>
+        
+        <div class="logo-ativa">
+            <img src="marcas/nissan.png" alt="Nissan">
+        </div>
+        
+        <div class="logo-ativa destaque">
+            <img src="marcas/volvo.png" alt="Volvo">
+        </div>
+        
+    </div>
+</section>
+
+
+</section>
+
+ <!-- CONTEÚDO PRINCIPAL FAQ -->
+    <main class="faq-section" id="faq-perguntas">
+        <div class="faq-container">
+            <h1 class="faq-title">Perguntas Frequentes (FAQ)</h1>
+            <p class="faq-subtitle">Tire suas dúvidas sobre nossos serviços de elétrica automotiva</p>
+
+            <!-- LISTA DE PERGUNTAS -->
+            <div class="faq-lista">
+                
+                <!-- PERGUNTA 1 -->
+                <div class="faq-item" data-id="1">
+                    <div class="faq-question">
+                        <span>Q1.</span> Quanto tempo leva para consertar um motor de partida?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>O tempo varia conforme o problema, mas geralmente leva de 4 a 6  horas. Casos mais simples (limpeza, troca de bendix) podem ser resolvidos em até 4 horas. Problemas mais complexos (bobinas, rolamentos) podem levar até 1 dia útil.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 2 -->
+                <div class="faq-item" data-id="2">
+                    <div class="faq-question">
+                        <span>Q2.</span> Vocês dão garantia no serviço?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Oferecemos garantia de 90 dias para todos os nossos serviços. A garantia cobre mão de obra e peças utilizadas. Trabalhamos apenas com peças de qualidade e fornecedores confiáveis.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 3 -->
+                <div class="faq-item" data-id="3">
+                    <div class="faq-question">
+                        <span>Q3.</span> É melhor consertar ou trocar o motor de partida?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Em mais de 70% dos casos, o conserto é a melhor opção. É mais econômico (acaba ficando mais enconta do que o novo) e sustentável. Avaliamos cada caso e só recomendamos troca quando o conserto não é viável técnica ou economicamente.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 4 -->
+                <div class="faq-item" data-id="4">
+                    <div class="faq-question">
+                        <span>Q4.</span> Atendem a domicílio?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, realizamos atendimento a domicílio e empresas na região de Assis e cidades próximas. O serviço móvel tem custo adicional que varia conforme a distância. Para agendar, entre em contato pelo WhatsApp.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 5 -->
+                <div class="faq-item" data-id="5">
+                    <div class="faq-question">
+                        <span>Q5.</span> Quais são os sinais de que o alternador está com problema?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Os principais sinais são: luz da bateria acesa no painel, faróis oscilando ou fracos, bateria descarregando com frequência, cheiro de queimado, ruídos estranhos e dificuldade para dar partida.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 6 -->
+                <div class="faq-item" data-id="6">
+                    <div class="faq-question">
+                        <span>Q6.</span> Trabalham com carros antigos?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Temos experiência com veículos antigos e clássicos. Trabalhamos com fusca, kombi, Opala, Maverick e outros modelos antigos. Mantemos contato com fornecedores especializados em peças para carros antigos.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 7 -->
+                <div class="faq-item" data-id="7">
+                    <div class="faq-question">
+                        <span>Q7.</span> Como funciona o diagnóstico?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p> O diagnóstico começa com uma avaliação visual, seguida de testes elétricos para identificar exatamente onde está o problema.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 8 -->
+                <div class="faq-item" data-id="8">
+                    <div class="faq-question">
+                        <span>Q8.</span> Aceitam cartão de crédito?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, aceitamos cartões de crédito e débito, além de PIX e dinheiro. Para orçamentos acima de R$ 500,00 oferecemos parcelamento em até 3x sem juros no cartão.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 9 -->
+                <div class="faq-item" data-id="9">
+                    <div class="faq-question">
+                        <span>Q9.</span> Preciso agendar ou posso chegar sem hora marcada?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Atendemos com e sem agendamento, mas recomendamos agendar para evitar espera. Horários de pico (manhãs de segunda-feira e finais de mês) costumam ter mais movimento. Use nosso WhatsApp para agendar.</p>
+                    </div>
+                </div>
+
+                <!-- PERGUNTA 10 -->
+                <div class="faq-item" data-id="10">
+                    <div class="faq-question">
+                        <span>Q10.</span> Fazem serviço para frotas de empresas?
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim, temos condições especiais para empresas, Uber e frotas. Oferecemos desconto progressivo, faturamento mensal, relatórios de manutenção e atendimento prioritário. Entre em contato para solicitar uma proposta.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- SEÇÃO DE CONTATO RÁPIDO -->
+            <div class="faq-contato">
+                <h3>Não encontrou sua dúvida?</h3>
+                <p>Entre em contato diretamente pelo WhatsApp</p>
+                <a href="https://wa.me/5518997739062" class="btn-whatsapp-faq" target="_blank">
+                    💬 Falar no WhatsApp
+                </a>
+            </div>
+
+            <!-- BOTÃO VOLTAR -->
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="index.html" class="btn-voltar">← Voltar para Página Inicial</a>
+            </div>
+
+        </div>
+    </main>
+
+    
+<section class="map-section">
+    <h2>Localização</h2>
+
+    <iframe 
+        src="https://www.google.com/maps?q=Travessa%20Oito%20de%20Maio,%2029%20Assis%20SP&output=embed" 
+        width="100%" 
+        height="200" 
+        style="border:0; border-radius: 10px;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+
+<!-- ===== RODAPÉ ===== -->
+<footer class="rodape">
+    <div class="rodape-container">
+        
+        <!-- Coluna 1: Sobre -->
+        <div class="rodape-coluna">
+            <h3>O Partidão</h3>
+            <p>Especialistas em motor de partida e alternador. Atendemos carros, caminhonetes e utilitários com qualidade e garantia.</p>
+            <p>Há anos trazendo soluções confiáveis para seu veículo.</p>
+        </div>
+
+        <!-- Coluna 2: Links Rápidos -->
+        <div class="rodape-coluna">
+            <h3>Links Rápidos</h3>
+            <ul class="rodape-links">
+                <li><a href="#hero"><i>🏠</i> Início</a></li>
+                <li><a href="#quem-somos"><i>👥</i> Sobre Nós</a></li>
+                <li><a href="#servicos"><i>🔧</i> Serviços</a></li>
+                <li><a href="#contato"><i>📞</i> Contato</a></li>
+                <li><a href="faq.html"><i>❓</i> FAQ</a></li>
+            </ul>
+        </div>
+
+        <!-- Coluna 3: Contato -->
+        <div class="rodape-coluna">
+            <h3>Contato</h3>
+            <div class="rodape-info">
+                <div class="info-item">
+                    <i>📍</i>
+                    <span>Rua Travessa Oito de Maio, 29<br>Assis/SP - CEP 19800-000</span>
+                </div>
+                <div class="info-item">
+                    <i>📞</i>
+                    <span>(18) 99773-9062</span>
+                </div>
+                <div class="info-item">
+                    <i>✉️</i>
+                    <span>autoeletricaopartidao@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i>⏰</i>
+                    <span>Seg-Sex: 8h às 18h<br>Sábado: 8h às 12h</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coluna 4: Redes Sociais -->
+        <div class="rodape-coluna">
+            <h3>Redes Sociais</h3>
+            <p>Siga-nos e fique por dentro das novidades!</p>
+            <div class="rodape-redes">
+                <a href="https://facebook.com" class="rede-social facebook" target="_blank" aria-label="Facebook">
+                    <i>f</i>
+                </a>
+                <a href="https://instagram.com" class="rede-social instagram" target="_blank" aria-label="Instagram">
+                    <i>ig</i>
+                </a>
+                <a href="https://wa.me/5518997739062" class="rede-social whatsapp" target="_blank" aria-label="WhatsApp">
+                    <i>✓</i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="rodape-inferior">
+        <div class="rodape-copyright">
+            © 2024 <strong>O Partidão</strong> - Todos os direitos reservados.
+            <br>Desenvolvido com ❤️ por <a href="#" target="_blank">Sua Agência</a>
+        </div>
+        
+        <div class="rodape-pagamentos">
+            <div class="pagamento-icon" title="Cartão de Crédito">CC</div>
+            <div class="pagamento-icon" title="Débito">DB</div>
+            <div class="pagamento-icon" title="PIX">PX</div>
+            <div class="pagamento-icon" title="Dinheiro">$</div>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão "Voltar ao Topo" -->
+<a href="#hero" class="voltar-topo" id="voltarTopo" aria-label="Voltar ao topo">
+    ↑
+</a>
+
+
+
+
+
+<!-- Remova todo o JavaScript inline e coloque apenas isto: -->
+<script src="script.js" defer></script>
+
+
+<!-- Versão simplificada -->
+<a href="https://wa.me/5518997739062" 
+   class="whatsapp-simple" 
+   target="_blank" 
+   title="Fale no WhatsApp">
+   <img src="fotos/simbolo whats-Photoroom.png" alt="WhatsApp" width="102">
+
+
+   </body>
+</html>
